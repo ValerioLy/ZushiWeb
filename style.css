@@ -52,6 +52,14 @@ button.continua {
 .contattaci2 {
     background-image: url(background4.jpg)
 }
-#check {
-    color:white;
+#confermo{
+    color: white;
+}
+#richiesta {
+    border-radius: 40px;
+}
+
+#richiesta:hover {
+  background-color: white;
+  color: black;
 }
