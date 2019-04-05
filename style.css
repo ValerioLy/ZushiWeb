@@ -1,0 +1,57 @@
+.ordina {
+    background-image:url(sfondo.jpg);
+}
+h1.ordinaonline {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+}
+#ordinap {
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+}
+button.prenotabtn{
+    border-radius: 40px;
+}
+
+button.continua {
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+#welcome {
+    font-size: 40px;
+
+}
+#continua {
+    border-radius: 40px;
+    font-size: 20px;
+}
+.pOrdina {
+    text-align: left;
+}
+#titolo {
+    font-size: 80px;
+}
+.app {
+    background-color: black;
+}
+
+.appdue {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.contattaci {
+    background-color: black;
+    color: white;
+}
+.contattaci2 {
+    background-image: url(background4.jpg)
+}
+#check {
+    color:white;
+}

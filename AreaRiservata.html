@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Area Riservata</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    
+    
+
+        <!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+
+    
+<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA8etAa9-KcdbP8kYIrMliAnRfEJkyCLA4",
+    authDomain: "ginzoweb-110e2.firebaseapp.com",
+    databaseURL: "https://ginzoweb-110e2.firebaseio.com",
+    projectId: "ginzoweb-110e2",
+    storageBucket: "ginzoweb-110e2.appspot.com",
+    messagingSenderId: "21870156947"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src=app.js></script>   
+    </head>
+<body>
+    
+    
+<form >
+  <div class="form-group ">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="emailText">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="passwordText">
+  </div>
+
+  <button type="submit" class="btn btn-primary" id="btnLogin">Registrati</button>
+
+</form>
+    
+
+
+     
+
+    
+    
+</body>    
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
