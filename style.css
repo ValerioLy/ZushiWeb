@@ -42,11 +42,12 @@ button.continua {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    border-style: solid;
+    border-width: 20px;
 }
 
 .contattaci {
-    background-color: black;
     color: white;
 }
 .contattaci2 {
@@ -60,6 +61,6 @@ button.continua {
 }
 
 #richiesta:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
