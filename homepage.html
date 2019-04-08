@@ -114,7 +114,7 @@
         </div>
         <br>
         <div class="container-fluid app">
-          
+
             <div class="row">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-3 appdue"> <div class="col text-center"> <h1>APP</h1><br>
@@ -135,25 +135,25 @@
 
 
 
-        
+
 
         <div class="container-fluid contattaci2">
-            
-       
-            
-            
+
+
+
+
             <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 col text-center contattaci">
-            <h1>CONTATTACI</h1>
-            <p>Per qualsiasi informazione compila il modulo</p></div>
-            <div class="col-md-4"></div>
-            
+                <div class="col-md-4"></div>
+                <div class="col-md-4 col text-center contattaci">
+                    <h1>CONTATTACI</h1>
+                    <p>Per qualsiasi informazione compila il modulo</p></div>
+                <div class="col-md-4"></div>
+
             </div>
-            
-            
-            
-            
+
+
+
+
             <div class="form-row">
                 <div class="form-group col-md-3"></div>
                 <div class="form-group col-md-3">
@@ -194,7 +194,43 @@
                 <div class="col-sm-4 col text-center"><button type="button" class="btn btn-secondary" id="richiesta">Invia Richiesta</button></div>
                 <div class="col-sm-4"></div>
             </div>
-                
+
+            <div class="container-fluid col text-center informazioni">
+<br><br>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-2"> <img src=orologio.png alt="orologio" width="100" height="100">
+                    <br><br><p id="txt">Online: 12:00 - 14:30 / 18:00 - 22:30</p>
+                    <p id="txt">Consegne: 12:00 - 14:30 / 18:30 - 22:15</p>
+                    </div>
+                    <div class="col-sm-2"> <img src=location.png alt="location" width="100" height="100">
+                    <br><br><p id="txt">Corso Italia, 13 - Italienallee, 13,</p>
+                    <p id="txt">39100 Bolzano</p>
+                    </div>
+                    <div class="col-sm-2"> <img src=telefono.png alt="telefono" width="100" height="100">
+                    <br><br><p id="txt">Tel 0471283440</p>
+                    <p id="txt">bolzano@zushi.eu</p>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
+            </div>
+
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 
         </div>
