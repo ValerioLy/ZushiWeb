@@ -70,3 +70,19 @@ button.continua {
 #txt {
     color: white;
 }
+#txt2{
+    color: white;
+    font-size: 14px;
+}
+
+.pcol {
+    text-align: right;
+
+} 
+.scol {
+    text-align: center;
+
+}
+.tcol {
+    text-align: left;
+}
