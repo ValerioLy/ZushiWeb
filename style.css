@@ -86,3 +86,7 @@ button.continua {
 .tcol {
     text-align: left;
 }
+#arrow {
+    float: right;
+    padding-top: 5px;
+}
