@@ -1,5 +1,5 @@
 .ordina {
-    background-image:url(sfondo.jpg);
+    background-image:url(Immagini/sfondo.jpg);
 }
 h1.ordinaonline {
     color: white;
@@ -51,7 +51,7 @@ button.continua {
     color: white;
 }
 .contattaci2 {
-    background-image: url(background4.jpg)
+    background-image: url(Immagini/background4.jpg)
 }
 #confermo{
     color: white;
@@ -91,11 +91,27 @@ button.continua {
     padding-top: 5px;
 }
 #barranav{
-    background-image: url(background4.jpg);
+    background-color: black;
 }
 #para{
     color: white;
 }
 .foot {
     background-color: black;
+}
+/*  Sushi Experience   */
+.box-green {
+    font-size: 14px;
+    max-width: 400px;
+    padding: 20px;
+    margin: 30px auto 0;
+    text-align: center;
+    background-color: rgba(203, 209, 23, 0.9);
+    border-radius: 20px;
+}
+.sushiex{
+    background-image: url(Immagini/background4.jpg);
+}
+#enjoy {
+    color: white;
 }
