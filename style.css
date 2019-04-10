@@ -90,3 +90,9 @@ button.continua {
     float: right;
     padding-top: 5px;
 }
+#barranav{
+    background-image: url(background4.jpg);
+}
+#para{
+    color: white;
+}
