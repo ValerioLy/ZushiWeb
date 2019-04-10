@@ -135,3 +135,17 @@ button.continua {
  color: brown;
     font-family: monospace;
 }
+.centereat{
+    background-color: white;
+}
+.backeat{
+    background-color:mediumseagreen;
+}
+#peatsushiback1{
+    padding-top: 30px;
+    font-size: 18px;
+}
+#peatsushiback2{
+    color: white;
+    font-size: 28px;
+}
