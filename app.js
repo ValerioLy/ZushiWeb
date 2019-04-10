@@ -20,5 +20,5 @@ function login(){
 }
 
 function indietro(){
-    location.href = "/homepage.html";
+    location.href = "/index.html";
 }
