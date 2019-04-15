@@ -117,10 +117,10 @@ button.continua {
     font-family: monospace;
 }
 .centered {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #psushiex{
@@ -132,7 +132,7 @@ button.continua {
     background-image: url(Immagini/background4.jpg);
 }
 #hsushiex {
- color: brown;
+    color: brown;
     font-family: monospace;
 }
 .centereat{
@@ -148,4 +148,16 @@ button.continua {
 #peatsushiback2{
     color: white;
     font-size: 28px;
+}
+#imgcatering {
+    text-align: left;
+    border-style: groove;
+}
+.c1{
+    text-align: center;
+    background-color: #e6ac00;
+}
+.c2{
+      text-align: center;
+    background-color: #ffdb4d;
 }
