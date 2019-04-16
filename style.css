@@ -194,3 +194,18 @@ background-color:antiquewhite;
 .backblack{
  background-color: black;
 }
+.cont2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.prenotabody{
+    background-color: aliceblue;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.btnprenota{
+     border-radius: 40px;
+    font-size: 20px;
+}
