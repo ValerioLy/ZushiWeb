@@ -172,3 +172,25 @@ button.continua {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.healthybody1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.healthybody2 {
+background-color:antiquewhite;
+    border-style:groove;
+    border-width: 20px;
+}
+.cont {
+    text-align: center;
+}
+#h{
+    font-size: 30px;
+}
+#p{
+    font-family:inherit;
+}
+.backblack{
+ background-color: black;
+}
