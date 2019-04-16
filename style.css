@@ -178,7 +178,7 @@ button.continua {
     padding-bottom: 50px;
 }
 .healthybody2 {
-background-color:antiquewhite;
+    background-color:antiquewhite;
     border-style:groove;
     border-width: 20px;
 }
@@ -192,7 +192,7 @@ background-color:antiquewhite;
     font-family:inherit;
 }
 .backblack{
- background-color: black;
+    background-color: black;
 }
 .cont2 {
     padding-bottom: 30px;
@@ -200,12 +200,13 @@ background-color:antiquewhite;
     text-align: center;
 }
 .prenotabody{
-    background-color: aliceblue;
+    background-image: url(Immagini/prenotatavoloimg.jpg);
+    background-position: center;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 .btnprenota{
-     border-radius: 40px;
+    border-radius: 40px;
     font-size: 20px;
 }
