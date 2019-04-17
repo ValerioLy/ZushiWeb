@@ -36,7 +36,7 @@ var nPersone = document.getElementById("personePrenota").value;
 var notePrenota = document.getElementById("notePrenota").value;
 
 
-
+function send(){
 exports.sendMail = function(req,res){
     const transporter = nodeMailer.createTransport({
         host: 'smtp.gmail.com',
@@ -64,5 +64,7 @@ exports.sendMail = function(req,res){
         }
     });
 
+
+}
 
 }
