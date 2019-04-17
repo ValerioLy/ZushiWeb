@@ -14,6 +14,7 @@
 
 
    <script src=app.js></script>   
+        
     </head>
     <body>
 
@@ -86,6 +87,7 @@
                 <p>Invia la tua richiesta di prenotazione del tavolo, <u>sarai ricontattato per la conferma.</u><br>
                     Seleziona data e ora in cui vuoi prenotare il tuo tavolo ed inserisci i tuoi dati.<br>
                     Le richieste vanno inviate almeno 1 ora prima.</p>
+                <form method="post" action="backend.php">
                 <div class="row">
                     <div class="col-md-3"></div>
                     <div class="col-md-6"><input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dataPrenota"></div>
@@ -134,7 +136,7 @@
                 </div>
                 <br><br>
                 <button id="btnprenota" type="button" class="btn btn-primary" onclick="send()">Invia Richiesta</button>
-
+</form>
             </div>
 
 
